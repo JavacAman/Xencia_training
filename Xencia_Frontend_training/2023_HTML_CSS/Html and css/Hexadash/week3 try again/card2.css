@@ -1,0 +1,179 @@
+.parent-container{
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    /* background-color: brown; */
+}
+ 
+.content-container{
+    /* width: 90%; */
+    /* background-color: aquamarine; */
+}
+
+/*------------------------------------------------ Nav --------------------------------- */
+nav {
+    width: 150px;
+    height:100vh;
+    background-color: #FFFFFF;
+ 
+}
+ 
+nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #080808;
+    display: block;
+    transition: 0.3s;
+    font-size: 16px;
+    
+}
+ 
+
+/************************************************** header */
+.header {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  padding: 5px 5px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+/************************************************* container */
+
+.big-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+ .content-container{
+   
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F4F8;
+ }
+
+
+
+ /* ******************************************************first-row */
+ 
+ .first-row{
+   display: flex;;
+   flex-direction: row;
+   height: 250px;
+   justify-content: space-around;
+   padding-top: 10px;
+   padding-bottom: 20px;
+   background-color: #F3F4F8;
+ }
+
+ .box1 img{
+  display: flex;
+  float: right;
+  width: 150px;
+  height: 150px;
+  margin-right: 80px;
+}
+
+ .pychart{
+   height: 240px;
+   width: 400px;
+ }
+ 
+ .prodcut{
+   margin-left: 60px;
+   width: 70px;
+   height: 60px;
+   padding: 5px;
+ }
+ .Award{
+   margin-left: 60px;
+   width: 70px;
+   height: 60px;
+   padding: 5px;
+ }
+/*  
+ .last-col{
+    display: flex;
+    flex-direction: column;
+ } */
+ .nested-box{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    width: 400px;
+ }
+ .child-box1{
+    display: flex;
+    flex-direction: column;
+    height: 115px;
+    width: 190px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+ }
+ .child-box1 h2{
+   margin: 0px;
+   padding: 0px;
+ }
+ .child-box1 p{
+   margin: 0px;
+   padding: 0px;
+ }
+ .subscribe{
+   display: flex;
+   flex-direction: row;
+    width: 400px;
+    height: 115px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+ }
+ .subscribe-img{
+   width: 130px;
+   height: 115px;
+ }
+ .subs-img{
+   width: 90px;
+   height: 100px;
+ }
+ .subs-content{
+   width: 270px;
+   height: 115px;
+ }
+ .subs-content h2{
+   margin: 0px;
+ }
+
+
+ /* ************************************second row */
+ .row2{
+    height: 240px;
+    width: 880px;
+ }
+
+
+
+ table {
+  padding: 10px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.column2
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}

@@ -1,0 +1,25 @@
+
+.container{
+        border: 1px solid black;
+        margin-left: 350px;
+        display: grid;
+        width: 600px;
+        height: 600px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        justify-content: center;
+      }
+
+
+.white {
+        height: 75px;
+        width: 75px;
+        background-color: black;
+      }
+  
+.black {
+        height: 75px;
+        width: 75px;
+        background-color: white;
+      }
+  

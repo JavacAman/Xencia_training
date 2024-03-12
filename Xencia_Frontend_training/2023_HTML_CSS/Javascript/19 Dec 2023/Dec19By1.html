@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click to change Name</title>
+</head>
+
+<body>
+    <!-- <button id="btn">Button</button> -->
+    <button id="btn" onclick="change()">Change</button>
+    <p id="para">
+        Hii Every one
+    </p>
+    <a id="lin" href="Google.com"></a>
+    <script>
+        // document.getElementById('btn').addEventListener('click', onClick);
+
+        // function onClick() {
+        //     btn.style.backgroundColor = 'pink';
+        // }
+
+    //     function myGreeting() {
+    //         alert("Jai");
+    //     }
+
+    function change(){
+        document.querySelector('p').innerHTML='Bye Every one';
+        document.querySelector('a').textContent='yahoo.com';
+    }
+       
+    //   const t = setTimeout(myGreeting, 5000);     
+
+
+
+    </script>
+
+</body>
+
+</html>

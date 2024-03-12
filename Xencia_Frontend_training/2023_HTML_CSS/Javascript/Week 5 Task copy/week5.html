@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="week5.css">
+  <title>Week5</title>
+</head>
+
+<body>
+  <div class="parent-container">
+    <div class="header">
+      <img src="xencia.svg" alt="Company Logo" style="margin-left: 30px;">
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+    </div>
+    <!-- Login container -->
+    <div id="id01" class="modal">
+
+      <form class="modal-content animate" method="post" onsubmit="validate(event)">
+        <div class="heading">
+          <span><b>Login Here</b></span>
+        </div>
+
+        <div class="container">
+
+          <div class="form-group">
+            <label for="email"><b>Email:</b></label>
+            <input type="text" placeholder="Enter email" name="email" id="email" required>   
+          </div>
+
+          <div class="form-group">
+            <label for="psw"><b>Password:</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="ps1" required>
+          </div>
+
+          <div class="submit-group">
+         <button type="submit">Login</button></a>
+          <a href="register.html"><button type="button">Register</button></a>
+        </div>
+
+        </div>
+      </form>
+    </div>
+
+    <script>
+      function validate(event) {
+        event.preventDefault();
+        var username = document.getElementById("email").value;
+        var password = document.getElementById("ps1").value;
+        if (username == "admin" && password == "admin@123") {
+          // Redirect to the login.html page
+          window.location.href = "login.html";
+        } else {
+          alert("Invalid credentials");
+        }
+      }
+    </script>
+
+</body>
+
+</html>

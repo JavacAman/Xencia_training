@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // var arr = ["10", "20", "30", "40", "50"];
+        // var arr1 = prompt("What os ur name");
+
+        // if(arr.includes(arr1)){
+        //     alert("welcome");
+        // }
+
+        // else{
+        //     alert("sorry");
+        // }
+        // for (var i = 3; i <= arr.length; i++) {
+        //     console.log(arr[i]);
+        // } a
+
+        // var count =1;
+        // var output = [];
+
+        // function fizz(){
+        //     output.push(count);
+        //     count++;
+        //     console.log(output);
+        // }
+
+        function fibonacciGenerator(n){
+            //  var a=0,b=1,result;
+            //  for(let i=2;i<n;i++)
+            //  {
+            //  result = a+b;
+            //  a=b;
+            //  b=result;
+            //  }
+            //  return b;
+            var arr=[0,1];
+            for(let i=2;i<n;i++){
+                 arr[i]=arr[i-1]+arr[i-2];
+            }
+            return arr;
+        }
+
+        var num1=prompt("Enter the number");
+       document.write("["+(fibonacciGenerator(num1))+"]");
+    </script>
+</body>
+
+</html>

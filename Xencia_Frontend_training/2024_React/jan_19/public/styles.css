@@ -1,0 +1,26 @@
+body {
+    background: #eee;
+  }
+  
+  header {
+    background-color: #f5ba13;
+    margin: auto;
+    padding: 16px 32px;
+  }
+  
+  header h1 {
+    color: #fff;
+  }
+  
+  footer {
+    position: absolute;
+    text-align: center;
+    background-color: rgb(194, 194, 83);
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    color: grey;
+  }
+  

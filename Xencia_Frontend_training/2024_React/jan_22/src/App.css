@@ -1,0 +1,26 @@
+.App{
+  text-align: center;
+}
+.Card{
+  border: 1px solid black;
+  width: auto;
+  align-items: center;
+  background-color: rgb(164, 165, 165);
+  
+}
+.top{
+  display: flex;
+  margin-left: 500px;
+  justify-content: space-around;
+
+}
+.circle-img{
+  width: 75px;
+  height: 70px;
+  border-radius: 15%;
+  margin-right: 500px;
+  
+}
+.heading{
+  background-color: rgb(156, 140, 228);
+}

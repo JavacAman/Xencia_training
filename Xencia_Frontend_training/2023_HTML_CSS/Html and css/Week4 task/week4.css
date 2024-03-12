@@ -1,0 +1,19 @@
+.super{
+    margin-left: 350px;
+    margin-top: 40px;
+}
+
+.FirstMain{
+    border: 1px solid black;
+    width: 600px;
+}
+
+.main{
+    padding: 20px;
+}
+
+
+
+.paging{
+    margin-left: 110px;
+}

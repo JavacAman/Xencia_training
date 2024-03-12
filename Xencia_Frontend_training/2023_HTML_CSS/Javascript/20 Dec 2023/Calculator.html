@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div class="main">
+        <form name="calc" class="calc">
+        <input type="Text" id="npt" class="box" name="output">  <br><br>
+        <input class="b" type="button" value="1" onclick="document.calc.output.value +='1'">
+        <input class="b" type="button" value="2" onclick="document.calc.output.value +='2'">
+        <input class="b" type="button" value="3" onclick="document.calc.output.value +='3'">
+        <input class="b" type="button" value="+" onclick="document.calc.output.value +='+'">
+        <br>
+        <input class="b" type="button" value="4" onclick="document.calc.output.value +='4'">
+        <input class="b" type="button" value="5" onclick="document.calc.output.value +='5'">
+        <input class="b" type="button" value="6" onclick="document.calc.output.value +='6'">
+        <input class="b" type="button" value="-" onclick="document.calc.output.value +='-'">
+        <br>
+        <input class="b" type="button" value="7" onclick="document.calc.output.value +='7'">
+        <input class="b" type="button" value="8" onclick="document.calc.output.value +='8'">
+        <input class="b" type="button" value="9" onclick="document.calc.output.value +='9'">
+        <input class="b" type="button" value="*" onclick="document.calc.output.value +='*'">
+        <br>
+        <input class="b" type="button" value="0" onclick="document.calc.output.value +='0'">
+        <input class="b" type="button" value="/" onclick="document.calc.output.value +='/'">
+        <input class="b" type="button" value="." onclick="document.calc.output.value +='.'">
+        <input class="b" type="button" value="=" onclick=" calculateResult()">
+        <br>
+        <input type="button" value="Clear All" class="clean" onclick="document.calc.output.value = ' ' ">
+        </form>
+    </div>
+    <script>
+
+        function calculateResult() {
+            document.calc.output.value = eval(document.calc.output.value);
+        }
+    </script>
+
+
+</body>
+
+</html>

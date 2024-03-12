@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-div{
+border: 3px solid black;
+width: 500px;
+padding: 5px 5px;
+}
+
+.right-div{
+border: 3px solid black;   
+width: 500px;
+padding: 5px 5px;
+}
+
+img{
+    float: left;
+    border: 1px solid black;
+}
+
+footer{
+    
+    clear: left;
+    margin-top: 10px;
+    border: 2px solid black;
+    height:40px;
+    width: 1350px;
+    text-align: center;
+    padding-top: 20px;
+}

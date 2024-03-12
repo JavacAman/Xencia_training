@@ -1,0 +1,64 @@
+
+[{
+    "Id": "1",
+    "Name": "Aman",
+    "Designation": "System Analyst Trainee",
+    "Department": "Development"
+  },
+  {
+    "Id": "2",
+    "Name": "Ravi",
+    "Designation": "System Analyst Trainee",
+    "Department": "Development"
+  },
+  {
+    "Id": "3",
+    "Name": "Jarvis",
+    "Designation": "Cyber Security",
+    "Department": "Security"
+  },
+  {
+    "Id": "4",
+    "Name": "Ultron",
+    "Designation": "Ethical Hacking",
+    "Department": "Security"
+  },
+  {
+    "Id": "5",
+    "Name": "Aman",
+    "Designation": "Cyber Security",
+    "Department": "Robotics"
+  },
+  {
+    "Id": "6",
+    "Name": "Sophia",
+    "Designation": "IT Services",
+    "Department": "Development"
+  },
+  {
+    "Id": "7",
+    "Name": "Ravi",
+    "Designation": "Cyber Security",
+    "Department": "Security"
+  },
+  {
+    "Id": "8",
+    "Name": "Ultron",
+    "Designation": "IT Services",
+    "Department": "Robotics"
+  },
+  {
+    "Id": "9",
+    "Name": "Ravi",
+    "Designation": "IT Services",
+    "Department": "Security"
+  },
+  {
+    "Id": "10",
+    "Name": "Sophia",
+    "Designation": "Cyber Security",
+    "Department": "Robotics"
+  }
+]
+
+  

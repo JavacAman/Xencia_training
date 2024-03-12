@@ -1,0 +1,86 @@
+.body{
+    background-color: #D4E2D4;
+}
+
+
+/*************************************************** Header css **************************************************/
+.header{
+    height: 60px;
+    color: rgb(237, 240, 243);
+    text-align: center;
+    background-color:rgb(21, 54, 70);
+    padding: 2px 2px 2px 2px;
+}
+
+/*************************************************** Table and content css **************************************************/
+  
+  .content{
+    margin-left:380px;
+    display:block;
+    margin-top: 100px;
+  }
+
+  .content table{
+    background-color:#dfdce4;
+    width: 800px;
+    margin-top:50px ;
+  }
+
+  .content h2{
+    padding-left: 250px;
+  }
+
+  th{
+    color:white;
+    background-color: #025c69;
+    padding: 8px 70px 8px 70px;
+
+  }
+
+  td{
+    padding: 8px 70px 8px 70px;
+
+  }
+/*************************************************** side nav bar css **************************************************/
+
+.nav {
+  height: 100%;
+  width: 200px;
+  background-color:rgb(21, 54, 70);
+  position: fixed;
+
+  
+}
+
+.nav a {
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  color: rgb(240, 237, 237);
+  display: block;
+  text-decoration: none;
+}
+
+.nav1{
+  margin-top: -12px;
+}
+
+.nav2{
+  margin-top: 300px;
+}
+
+.nav .nav1 ul{
+  list-style-type:none;
+  margin-left: -40px;
+}
+
+.nav .nav2 ul{
+  list-style-type:none;
+  margin-left: -40px;
+}
+
+.uppernav{
+  height: 38px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 5px;
+  }

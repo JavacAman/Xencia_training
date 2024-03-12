@@ -1,0 +1,16 @@
+.dialog-box {
+    position: fixed;
+    top: 20px;
+    right: 20px; 
+    padding: 20px;
+    background-color: #282c34;
+    border: 1px solid #555;
+    width: 300px;
+    color: white;
+    border-radius: 2px;
+  }
+  
+  /* Add your existing styles here */
+  p{
+
+  }

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="jan16.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Jan16</title>
+</head>
+
+<body>
+
+    <!--------------------------------------------- Nav Bar -->
+    <div class="navig">
+        <ul class="part1">
+            <li style="color: #e0731a;">Home <i class="fa-solid fa-chevron-down fa-xs" style="color: #b0abab;"></i></li>
+            <li>About <i class="fa-solid fa-chevron-down fa-xs" style="color: #b0abab;"></i></li>
+            <li>Fashion</li>
+            <li>Photography</li>
+            <li>Style</li>
+            <li>Posts <i class="fa-solid fa-chevron-down fa-xs" style="color: #b0abab;"></i></li>
+            <li>Pages <i class="fa-solid fa-chevron-down fa-xs" style="color: #b0abab;"></i></li>
+            <li>Contact <i class="fa-solid fa-chevron-down fa-xs" style="color: #b0abab;"></i></li>
+
+        </ul>
+
+        <ul class="part2">
+            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+            <li><i class="fa-solid fa-bars-staggered" style="color: #e0731a;"></i></li>
+        </ul>
+
+    </div>
+    <hr>
+
+    <!--------------------------------------------- Header -->
+    <header class="header">
+        <h1 style=" font-family: cursive;">DOLUS BLOG</h1>
+    </header>
+
+
+    <!--------------------------------------------- Slider -->
+    <div class="slider">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="1.jpg" style="width:100%">
+                <div class="text">
+                    <h1>MY SUMMER DIARY</h1>
+                    <h4>September 30, 2016</h4>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="2.jpg" style="width:100%">
+                <div class="text">
+                    <h1>MY SUMMER DIARY</h1>
+                    <h4>September 30, 2016</h4>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="3.jpg" style="width:100%">
+                <div class="text">
+                    <h1>MY SUMMER DIARY</h1>
+                    <h4>September 30, 2016</h4>
+                </div>
+            </div>
+
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="4.jpg" style="width:100%">
+                <div class="text">
+                    <h1>MY SUMMER DIARY</h1>
+                    <h4>September 30, 2016</h4>
+                </div>
+            </div>
+
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="5.jpg" style="width:100%">
+                <div class="text">
+                    <h1>MY SUMMER DIARY</h1>
+                    <h4>September 30, 2016</h4>
+                </div>
+            </div>
+
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="7.jpg" style="width:100%">
+                <div class="text">
+                    <h1>MY SUMMER DIARY</h1>
+                    <h4>September 30, 2016</h4>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </div>
+
+
+    <!--------------------------------------------- Gallery -->
+
+    <div class="gallery">
+        <div class="card">
+            <button id="button1" onclick="myFunction1()"><img src="c11.jpg">
+                <h3 style="margin-top: 30px;">Fashion</h3>
+            </button>
+            <button id="button2" onclick="myFunction2()"><img src="c2.jpg">
+                <h3 style="margin-top: 30px;">Life Style</h3>
+            </button>
+            <button id="button3" onclick="myFunction3()"><img src="c33.jpg">
+                <h3 style="margin-top: 30px;">Travel</h3>
+            </button>
+
+        </div>
+
+
+        <div id="myDIV">
+
+        </div>
+    </div>
+
+    <!--------------------------------------------- Footer -->
+    <div class="footer">
+
+    </div>
+
+    <script src="jan16.js"></script>
+</body>
+
+</html>

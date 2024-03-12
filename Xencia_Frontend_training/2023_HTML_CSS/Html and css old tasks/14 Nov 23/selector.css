@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(160, 211, 211);
+}
+
+/********************************************* class selector*****************************************/
+.select{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+
+a[target="_blank"] {
+    background-color: yellow;
+  }
+
+
+/********************************************* Id selector*****************************************/
+#select{
+    display: flex;
+    justify-content: space-between;
+}
+
+/********************************************* Type selector selector*****************************************/
+
+h1{
+    color: brown;
+    text-align: center;
+}
+
+h3{
+    color: rgb(32, 139, 0);
+}
+
+h3{
+    color: darkblue;
+}
+
+
+
+/********************************************* universal selector*****************************************/
+
+/* *{
+    border: 1px solid;
+} */
+

@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif !important;
+    background-color: #eceff0  !important;
+}
+
+.header {
+    background-color:#D41864;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    max-width: 100px;
+    height: auto;
+}
+
+
+input,
+select {
+    width: 500px;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4bbfe5;
+    color: white;
+    padding: 10px 14px 12px 14px;
+    margin: 5px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+  }
+  
+
+/******************************************** Css on bootstrap things */
+
+.FirstMain {
+    box-shadow: 2px 4px #888888;
+    width: 650px;
+    margin-left: 350px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(219, 245, 245);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+

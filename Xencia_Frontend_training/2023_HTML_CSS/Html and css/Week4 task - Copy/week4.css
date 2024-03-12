@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif !important;
+    background-color: #eceff0  !important;
+}
+
+.top {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+/******************************************** Css on bootstrap things */
+
+
+.FirstMain {
+    box-shadow: 2px 4px #888888;
+    width: 600px;
+}
+
+.main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(202, 236, 236);
+}
+
+.main li{
+    background-color: #4bbfe5;
+    border-radius: 5px;
+}
+
+.main a{
+    color: black;
+}
+.nav-pills>li.active>a{
+    background-color: rgb(235, 235, 235)!important;
+    color: rgb(19, 18, 18)!important;
+}
+
+.main .bt {
+    background-color: rgb(235, 235, 235);
+    color: white;
+} 
+
+
+.paging {
+    margin-left: 105px;
+}
+
+.pager li>a{
+    background-color: #D41864 !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.pager .next>a{
+    background-color: rgb(177, 171, 171) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+
+/* .col-sm-offset-2 {
+    margin-left: 4%!important;
+} */
+
+@media only screen and (min-width: 600px) {
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    .super {
+        margin-left:250px;
+        margin-top: 40px;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    .super {
+        margin-left: 350px;
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,107 @@
+.main{
+    display: block;
+}
+
+.block{
+    margin-left: 250px;
+    border: 2px solid black;
+    height: 150px;
+    width: 850px;
+}
+.b1{
+    background-color: orange;
+}
+
+.b2{
+    background-color: white;
+}
+
+.b3{
+    background-color: green;
+}
+img{
+    height: 150px;
+    margin-left: 560px;
+}
+
+
+
+/*************************************************Chakra ***********************************************/
+.circle{
+    width: 150px;
+    height: 145px;
+    position: absolute;
+    margin-left: 340px;
+    border: 3px solid black;
+    border-radius:60%;
+}
+
+
+.chakra{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.chakra li{
+    list-style: none;
+    width: 140px;
+    border: 1px solid blue;
+    position: relative;
+    
+    }
+   
+    li:nth-child(1){
+    top: 47px;
+    }
+   
+    li:nth-child(2){
+    top: 45px;
+    transform: rotate(90deg);
+    }
+   
+    li:nth-child(3){
+    top: 43px;
+    transform: rotate(15deg);
+    }
+   
+    li:nth-child(4){
+    top: 41px;
+    transform: rotate(30deg);
+    }
+   
+    li:nth-child(5){
+    top: 39px;
+    transform: rotate(45deg);
+    }
+   
+    li:nth-child(6){
+    top: 37px;
+    transform: rotate(60deg);
+    }
+   
+    li:nth-child(7){
+    top: 35px;
+    transform: rotate(75deg);
+    }
+   
+    li:nth-child(8){
+    top: 33px;
+    transform: rotate(105deg);
+    }
+    li:nth-child(9){
+    top: 31px;
+    transform: rotate(120deg);
+    }
+   
+    li:nth-child(10){
+    top: 29px;
+    transform: rotate(135deg);
+    }
+    li:nth-child(11){
+    top: 27px;
+    transform: rotate(150deg);
+    }
+   
+    li:nth-child(12){
+    top: 25px;
+    transform: rotate(165deg);
+    }

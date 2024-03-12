@@ -1,0 +1,10 @@
+.imagepart{
+    display: flex;
+    justify-content: space-between;  /*Horizantal*/
+    align-items:flex-end;       /*vertical*/
+  
+}
+
+.imagepart li{
+    list-style-type: none;
+}

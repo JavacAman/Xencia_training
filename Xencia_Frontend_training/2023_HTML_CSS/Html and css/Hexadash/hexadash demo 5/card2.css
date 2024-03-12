@@ -1,0 +1,179 @@
+body{
+  background-color: #f3efef;
+}
+
+.parent-container{
+   display: flex;
+}
+
+/*------------------------------------------------ Nav --------------------------------- */
+nav {
+    width: 220px;
+    height:180vh;
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+
+a .logo{
+    margin-right:10px;
+}
+
+.demo{
+  margin-left: 22px;
+  color: black;
+}
+ 
+nav a {
+    padding: 8px 8px 8px 32px;
+    color: #080808;
+    display: block;
+    transition: 0.3s;
+    font-size: 12px;    
+}
+
+/************************************************** header */
+.header {
+  /* position: sticky; */
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  padding: 5px 5px;
+}
+
+.header a {
+  float: left;
+  color: rgb(116, 111, 111);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+/************************************************* container ************************************/
+
+.content-container{
+
+}
+
+.rows{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 180vh;
+    margin-left:10px;
+    margin-top: 5px;
+    /* background-color: #f5f5f5; */
+}
+
+
+
+ /* ******************************************************first-row */
+ 
+ .r1{
+   display: flex;;
+   flex-direction: row;
+   height: 290px;
+   width:1080px;
+   justify-content: space-around;
+   margin-top: 20px;
+   margin-left: 10px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: #ffffff;
+   border-radius: 20px;
+ }
+ .c11{
+  display: flex;;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  height: 280px;
+  width:530px;
+  border-radius: 10px;
+ }
+ .c12{
+  display: flex;;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  height: 280px;
+  width: 530px;
+  border-radius: 10px;
+ }
+
+ 
+
+ /* ************************************second row */
+ .r2{
+  display: flex;;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+  background-color: #f3efef;
+  height: auto;
+  width:1100px;
+ }
+
+ .c21{
+  display: flex;;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #ffffff;
+  height: 400px;
+  width:630px;
+  border-radius: 10px;
+ }
+ .c22{
+  display: flex;;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #ffffff;
+  height: 400px;
+  width: 430px;
+  border-radius: 10px;
+ }
+
+  /* ************************************Third row */
+  .r3{
+    display: flex;;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    background-color: #f3efef;
+    height: auto;
+    width:1100px;
+   }
+  
+   .c31{
+    display: flex;;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    height: 350px;
+    width:530px;
+    border-radius: 10px;
+   }
+   .c32{
+    display: flex;;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    height: 350px;
+    width: 530px;
+    border-radius: 10px;
+   }

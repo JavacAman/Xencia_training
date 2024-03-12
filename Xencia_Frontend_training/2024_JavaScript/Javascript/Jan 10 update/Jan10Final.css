@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/********************************************************* header */
+.header {
+  
+    background-color:#D41864;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    max-width: 100px;
+    height: auto;
+}
+
+input[type=email], input[type=password], input[type=text] {
+    width: 80%;
+    padding: 8px 20px;
+    margin: 5px 0;
+  }
+  
+
+  .options{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+  /* Set a style for all buttons */
+  button {
+    background-color: #4bbfe5;
+    color: white;
+    padding: 10px 14px 12px 14px;
+    margin: 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  /* Center the image and position the close button */
+  .heading {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 550px; /* Could be more or less, depending on screen size */
+    height: 320px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .submit-group{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    margin-left:90px;
+  }
+
+  label {
+    padding-right: 5px;
+  }
+  
+
+
+
+  /************************************** Toggle */
+  .sidenav  {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#f1f1f1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+   
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+   
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+   
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+   
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+

@@ -1,0 +1,47 @@
+.main{
+    width: 1035px;
+    height: 890px;
+    margin-left: 150px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+/***************************************** kohli and dhoni block **************************************/
+#b1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#b1 img{
+    border: 3px solid;
+    padding: 20px 20px;
+}
+
+
+/***************************************** Sachin block **************************************/
+
+#b2{
+    display: flex;
+   justify-content: center;   
+}
+
+#b2 img{
+    border: 3px solid;
+    padding: 20px 20px;
+}
+
+
+/***************************************** Rohit and dhawan block **************************************/
+
+#b3{
+    display: flex;
+    justify-content: space-between;
+}
+
+#b3 img{
+    border: 3px solid;
+    padding: 20px 20px;
+}
+

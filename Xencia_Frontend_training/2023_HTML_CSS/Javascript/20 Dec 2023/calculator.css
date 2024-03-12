@@ -1,0 +1,37 @@
+body{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+}
+.main{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 420px;
+    box-shadow:5px 10px rgb(134, 125, 127);
+    border: 1px solid;
+}
+
+input[type=button]:focus{
+    background-color: #4bbfe5;
+}
+
+.box{
+    width: 405px;
+    height: 50px;
+}
+
+
+.clean{
+    width: 412px;
+    height: 50px;
+}
+.b{
+    width: 100px;
+    height: 50px;
+}
+

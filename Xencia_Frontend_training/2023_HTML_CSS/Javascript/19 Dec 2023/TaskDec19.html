@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+ 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dec19Weekly</title>
+    <link rel="stylesheet" href="del.css">
+
+    <style>
+       li, span{
+            margin-right: 10px;
+        }
+
+        .header{
+            text-align: center;
+            background-color: aquamarine;
+        }
+        .it{
+          display: flex;
+          width: 30%;
+          justify-content: center;
+          margin-left: 475px;
+        }
+
+        button{
+            background-color: green;
+             color: white;
+        }
+
+         li button {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+   
+    <div class="index">
+        <div class="header">
+            <h1>My shopping list</h1>
+            <label for="item">Enter a new item:</label>
+            <input type="text"  id="item">
+            <button>Add item</button>
+        </div>
+
+        <div class="it">
+            <ul>
+ 
+            </ul>
+        </div>
+ 
+       
+    </div>
+    <script>
+        var unorderlist = document.querySelector('ul');
+        var input = document.querySelector('input');
+        var button = document.querySelector('button');
+ 
+        button.onclick = function () {
+            let newItem = input.value;
+            input.value = '';
+ 
+            let itemList = document.createElement('li');
+            let itemText = document.createElement('span');
+            let itemBtn = document.createElement('button');
+ 
+            itemList.appendChild(itemText);
+            itemText.textContent = newItem;
+ 
+            itemList.appendChild(itemBtn);
+            itemBtn.textContent = 'Delete';
+ 
+            unorderlist.appendChild(itemList);
+ 
+            itemBtn.onclick = function () {
+                unorderlist.removeChild(itemList);
+            }
+        }
+   
+    </script>
+</body>
+ 
+</html>

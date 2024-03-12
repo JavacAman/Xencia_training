@@ -1,0 +1,17 @@
+.input-group{
+    margin: 0px;
+    padding: 0px;
+}
+.form-control{
+    margin-left: 900px;
+    height:30px;
+    border-radius: 4px;
+}
+.btn{
+    background-color: #0093FF;
+    color: white;
+    border: none;
+    float: right;
+    padding: 7px;
+    
+}

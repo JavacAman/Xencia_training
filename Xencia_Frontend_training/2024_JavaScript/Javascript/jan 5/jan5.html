@@ -1,0 +1,18 @@
+<html>
+<head>
+   <script src = "https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js" integrity="sha512-csNcFYJniKjJxRWRV1R7fvnXrycHP6qDR21mgz1ZP55xY5d+aHLfo9/FcGDQLfn2IfngbAHd8LdfsagcCqgTcQ==" crossorigin = "anonymous" referrerpolicy = "no-referrer"> </script>
+</head>
+   <body>
+   <script>
+      function CreateTextFile() {
+         var x = new Blob(["This is something i just write if you want to add some other text then go to visual studio."], 
+         {
+            type: "text",
+         });
+         saveAs(x, "File.txt");
+      }
+      CreateTextFile();
+   </script>
+  
+</body>
+</html>

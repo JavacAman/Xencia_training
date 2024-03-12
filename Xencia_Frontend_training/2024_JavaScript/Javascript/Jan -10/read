@@ -1,0 +1,109 @@
+
+  <div class="question">
+        <p>1. What is a data structure?</p>
+        <label>
+          <input type="radio" name="q1" value="Paris"> A programming language
+        </label>
+        <label>
+          <input type="radio" name="q1" value="Berlin">  A collection of algorithms
+        </label>
+        <label>
+          <input type="radio" name="q1" value="Madrid"> A way to store and organize data
+        </label>
+        <label>
+            <input type="radio" name="q1" value="Madrid">  A type of computer hardware
+          </label>
+      </div>
+
+      <div class="question">
+        <p>2. What are the disadvantages of arrays?</p>
+        <label>
+          <input type="radio" name="q1" value="Paris">Index value of an array can be negative
+        </label>
+        <label>
+          <input type="radio" name="q1" value="Berlin"> Elements are sequentially accessed
+        </label>
+        <label>
+          <input type="radio" name="q1" value="Madrid">Data structure like queue or stack cannot be implemented
+        </label>
+        <label>
+            <input type="radio" name="q1" value="Madrid"> There are chances of wastage of memory space if elements inserted in an array are lesser than the allocated size
+          </label>
+      </div>
+
+      <div class="question">
+        <p>3. Which data structure is used for implementing recursion?</p>
+        <label>
+          <input type="radio" name="q1" value="Paris">  Stack
+        </label>
+        <label>
+          <input type="radio" name="q1" value="Berlin">  Queue
+        </label>
+        <label>
+          <input type="radio" name="q1" value="Madrid"> List
+        </label>
+        <label>
+            <input type="radio" name="q1" value="Madrid">  Arrays
+          </label>
+      </div>
+
+
+      <div class="question">
+        <p>4. The data structure required to check whether an expression contains a balanced parenthesis is?</p>
+        <label>
+          <input type="radio" name="q1" value="Paris">  Queue
+        </label>
+        <label>
+          <input type="radio" name="q1" value="Berlin">  Stack
+        </label>
+        <label>
+          <input type="radio" name="q1" value="Madrid"> Tree
+        </label>
+        <label>
+            <input type="radio" name="q1" value="Madrid">  Array
+          </label>
+      </div>
+
+      <div class="question">
+        <p>5. Which of the following is not the application of stack?</p>
+        <label>
+          <input type="radio" name="q1" value="Paris"> Data Transfer between two asynchronous process
+        </label>
+        <label>
+          <input type="radio" name="q1" value="Berlin">  Compiler Syntax Analyzer
+        </label>
+        <label>
+          <input type="radio" name="q1" value="Madrid">  Tracking of local variables at run time
+        </label>
+        <label>
+            <input type="radio" name="q1" value="Madrid">  A parentheses balancing program
+          </label>
+      </div>
+
+
+
+      function submitQuiz() {
+    const form = document.getElementById('quiz-form');
+    const resultContainer = document.getElementById('result-container');
+    const totalScoreElement = document.getElementById('total-score');
+  
+    // Calculate the total score
+    let totalScore = 0;
+    const answers = {
+      q1: 'Paris',
+      q2: 'JavaScript'
+      // Add more answers for additional questions if needed
+    };
+  
+    for (const question in answers) {
+      const selectedAnswer = form.elements[question].value;
+      if (selectedAnswer === answers[question]) {
+        totalScore++;
+      }
+    }
+  
+    // Display the result
+    totalScoreElement.textContent = totalScore;
+    resultContainer.classList.remove('hidden');
+  }
+  

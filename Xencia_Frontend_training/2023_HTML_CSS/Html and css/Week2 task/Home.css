@@ -1,0 +1,308 @@
+
+
+/**************************************** Header ************************************************/
+.header{
+    border: 2px solid black;
+    height: 100px;
+    width: 1330px;
+    margin-left: 0;
+    background-color:rgb(7, 4, 10);
+    background-color: #D41864;
+    box-shadow: 3px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    
+}
+
+.header img{
+  margin-left: 260px;
+  width: 140px;
+  margin-top:2px;
+}
+
+.header h1{
+  margin-left: 1100px;
+}
+
+
+/************** dropdown *************/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown a{
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown h1{
+
+}
+
+.profile {
+  color: white;
+  margin-right: 10px;
+  margin-top: 50px;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #030101;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(250, 243, 243);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+}
+
+.dropdown-content a:hover {background-color: #443939;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+/************************************************ Nav Bar *********************************************/
+
+/* .nav{
+    height: 780px;
+    width: 190px;
+    border: 1px solid black;
+}
+
+.lowernav{
+    margin-top: 600px;
+} */
+
+
+
+/***************** toggle **********************/
+
+
+.toggle{
+  position: fixed;
+  height: 30px;
+  width: 30px;
+  top: 50px;
+  left: 15px;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 2px;
+  background-color:white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+}
+
+.toggle .common{
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  background-color: #b2a4c0;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+
+.toggle .top_line{
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.toggle .middle_line{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.toggle .bottom_line{
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* input:checked ~ .toggle .top_line{
+  left: 2px;
+  top: 14px;
+  width: 25px;
+  transform: rotate(45deg);
+}
+
+input:checked~ .toggle .bottom_line{
+  left: 2px;
+  top: 14px;
+  width: 25px;
+  transform: rotate(-45deg);
+}
+
+input:checked~ .toggle .middle_line{
+  opacity: 0;
+  transform: translateX(20px);
+} */
+
+
+
+
+.slide{
+  font-size: 16px;
+  height: 700px;
+  width: 170px;
+  position: absolute;
+  transition: 0.3s ease;
+  transform: translateX(-180px);
+  background: rgb(0, 0, 0);
+  color: #fff;
+  box-shadow: 3px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  margin-top: 110px;
+  overflow-x: hidden;
+}
+
+
+ul li {
+  list-style: none;
+  font-size: 16px;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+input {
+  display: none;
+}
+
+/* Toggler Functionality */
+input:checked ~ .slide {
+  transform: translateX(0);
+  box-shadow: 0 0 15px  rgba(0,0,0,0.5);;
+}
+
+
+
+/*****************************************Content Boxes *********************************************/
+
+.content{
+  flex: 1;
+  padding: 20px;
+  transition: margin-left 0.5s;
+}
+
+section{
+  background-color: #4bbfe5;
+}
+
+input:checked ~ section{
+  margin-left: 250px;
+}
+
+.c1{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 180px;
+  margin-right: 10px;
+}
+
+.c2{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 180px;
+  margin-right: 10px;
+}
+
+.c3{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 180px;
+  margin-right: 10px;
+}
+
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid black;
+  background-color: #fff;
+  height: 180px;
+  width: 320px;
+  margin-top: 30px;
+}
+
+.logo{
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+.box2{
+  border: 3px solid black;
+  background-color: #fff;
+  height: 200px;
+  width: 520px;
+  margin-top: 30px;
+}
+
+
+.box h1,h2{
+  text-align: center;
+}
+
+.box2 h1,h2{
+  text-align: center;
+}
+
+.box p{
+  padding: 20px;
+}
+
+
+/************************* Image gallery **********************/
+
+.gallery{
+height: 200px;
+width: 520px;
+margin-top: 30px;
+border: 1px solid black;
+overflow: hidden;
+overflow: auto;
+}
+
+
+
+/* .slides{
+ width: 520px;
+ height: 200px;
+ overflow-x: auto;
+ white-space: nowrap;
+} */
+
+.box3 .image{
+  display: inline-block;
+  background-color: #3e8e41;
+  overflow: hidden;
+  height: 200px;
+  width: 520px;
+}
+
+
+/************************************ other *******************************************/
+
+strong{
+  font-size: 14px;
+}
+
+p{
+  font-size: 12px;
+  padding: 20px;
+}
